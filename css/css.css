@@ -1,5 +1,6 @@
 html{
-    background-image: url(pf3YhJ.jpg)
+    background-image: url(pf3YhJ.jpg);
+    
 
 }
 
@@ -9,7 +10,7 @@ a{
 }
 
 body{
-    
+    font-size: 10px;
     padding-left: 0%;
     padding-right: 0%;
     
@@ -23,17 +24,21 @@ body{
 
 }
 
-ul{
-
-
+.haiku{
+    font-style:italic;
+    padding-left:10%;
+    font-size: 8
 }
 
 ol{
     font-style:italic;
 }
-ol > a{
-    font-style:no;
+
+table, th, td{
+    border: 1px solid black;
+    
 }
+
 
 #paddingForbody{
     padding:15px 1px 15px 15px;
