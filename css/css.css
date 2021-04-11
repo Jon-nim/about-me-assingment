@@ -1,20 +1,21 @@
+html{
+    background-image: url(pf3YhJ.jpg)
+
+}
+
 a{
     text-decoration: none;
-    display:flex;
-    float:left;
-
-    padding:5px;
-    background-color:#3f59a8;
-    margin:7px;
-    color:#f4f4f4;
-    border-radius:5px;
-    font-size:10pt;
+    font-style: normal;
 }
 
 body{
-    padding-left: 10%;
-    padding-right: 10%;
-    margin:30px;  
+    
+    padding-left: 0%;
+    padding-right: 0%;
+    
+    margin-left: 10%;  
+    margin-right: 10%;
+
     background-color:#f4f4f4; 
     font-family:Arial, Helvetica, sans-serif;
     max-width: 900px;
@@ -23,25 +24,24 @@ body{
 }
 
 ul{
-    padding:0;
-    display:inline-block;
-    margin-top:0px;
-    list-style:none;
+
+
+}
+
+ol{
+    font-style:italic;
+}
+ol > a{
+    font-style:no;
 }
 
 #paddingForbody{
     padding:15px 1px 15px 15px;
 }
 
-.leftColumn{
-    float:left;
-    width:20%;
-    padding-right:3%;
-}
 
-.rightColumn{
-    float:right;
-    width:77%;
+.mainBody{
+    padding: 5px;
 }
 
 
@@ -49,17 +49,28 @@ ul{
     background-color: #3f59a8;
     color:#f4f4f4;
     font-family:Arial, Helvetica, sans-serif;
-    padding:5px 10px 15px 15px;
+    padding:5px 5px 10px 10px;
     font-weight:normal;
-    font-size:10pt;
+    font-size: 5px;
+    text-align: left;
+
     
     
+    
+}
+#profilePic{
+    height: 200px;
+}
+
+#imgContainer{
+    text-align:center;
+    display : block;
 }
 
 .headLine h1{
     font-weight: normal;
     padding:0px;
-    margin-bottom:-20px;
+    margin-bottom:10px;
     margin-top: 10px;
     font-size:24pt;
 }
@@ -69,7 +80,7 @@ ul{
     font-weight: normal;
     border-bottom:2px solid;
     width:200px;
-    font-size:14pt;
+    font-size:10pt;
     margin-bottom:10px
 }
 
@@ -81,39 +92,19 @@ ul{
     margin-top: 10px;
     margin-bottom: 15px;
     padding:10px 10px 0px 1px;
-    width:90%;
+    width:98%;
     text-transform:uppercase;
 }
 
 .contact{
-    font-size:10pt;
+    font-size:8pt;
     overflow-wrap: break-word;
 }
 
-.skillBox{
-    display:flex;
-    float:left;
-    padding:5px;
-    background-color:#3f59a8;
-    margin:7px;
-    color:#f4f4f4;
-    border-radius:5px;
-    font-size:10pt;
-}
-
-.interestBox{
-    display:flex;
-    float:left;
-    padding:5px;
-    border: 1px #3f59a8 solid;
-    margin:7px;
-    border-radius:5px;
-    font-size:10pt;
-}
 
 .littleBlue{
     padding-top:5px;
-    font-size: 8pt;
+    font-size: 6pt;
     font-style: italic;
     color:#3f59a8;
     
@@ -122,12 +113,12 @@ ul{
 
 .bigBlue{
     font-weight: bold;
-    font-size: 14pt;
+    font-size: 8pt;
     color:#3f59a8;
 }
 
 .underBigblue{
-    font-size:15pt;
+    font-size:10pt;
     font-weight: normal;
 }
 
@@ -141,7 +132,7 @@ ul{
 #courseList li{
     padding: 0px 5px 0px 0px;
     padding-bottom: 0px;
-    padding-right: 50px;
+    padding-right: 0px;
     float:left;
     display:flex;
     width:250px
